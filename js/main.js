@@ -20,7 +20,7 @@ function HandleOnClick(obj) {
                 break;
         }
         isPlaying = vid_elm.currentTime > 0 && !vid_elm.paused && !vid_elm.ended && vid_elm.readyState > 2;
-        if(isPlaying)
+/*        if(isPlaying)
         {
             console.log("Already Playing! Pause it!!"); 
             vid_elm.pause();        
@@ -29,7 +29,7 @@ function HandleOnClick(obj) {
         {
             console.log("Not Playing, lets load first!!!!"); 
             vid_elm.load();
-        }
+        }*/
         console.log("Play now!!"); 
         vid_elm.currentTime = 0;
         console.log("Video Element: " + vid_elm.id + " Source: " + vid_elm.src);
